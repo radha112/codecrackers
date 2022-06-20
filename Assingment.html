@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Billing_Form</title>
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.msin.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="mb-3"> Billing Address</h2>
+            <div class="row">
+                <div class="col-3">
+                    <h5>Fist name</h5>
+                    <input type="text">
+                </div>
+                <div class="col-3">
+                    <h5>Last name</h5>
+                    <input type="text">
+                </div>
+            </div><br>
+        <div>
+        <div class="col-6">
+            <h5>Username</h5>
+            <div class="input-group">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Username">
+            </div>
+            <br>
+            <h5>Email</h5>
+            <input type="text" class="form-control" placeholder="you@example.com">
+            <br>
+            <h5>Address</h5>
+            <input type="text" class="form-control" placeholder="1234 Main St">
+            <br>
+            <h5>Address 2</h5>
+            <input type="text" class="form-control" placeholder="Apartment or suite" >
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h5>Country</h5>
+                        <select id="username" class="form-control">
+                            <option value="Choose..">Choose..</option>
+                            <option value="India">India</option>
+                            <option value="America">America</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <h5>State</h5>
+                        <select id="username" class="form-control">
+                        <option value="Choose..">Choose..</option>
+                        <option value="Andhra">Andhra</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Telangana">Telangana</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <h5>Zip</h5>
+                        <input type="text">
+                    </div> 
+                </div>
+                <hr class="my-4">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">Shipping address is same as my billing address
+                </div>
+                <div>
+                    <input type="checkbox" class="form-check-input"> Save the information for next time
+                </div>
+                <hr class="my-4">
+                <h4 class="mb-3">Payment</h4>
+                <div>
+                    <input type="radio" name="payment" id="Credit card" class="form-check-input">Credit card
+                </div>
+                <div>
+                    <input type="radio" name="payment" id="Debit card" class="form-check-input">Debit card
+                </div>
+                <div>
+                    <input type="radio" name="payment" id="Paypal" class="form-check-input">Paypal
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h5>Name on card</h5>
+                        <input type="text">
+                    </div>
+                    <div class="col-6">
+                        <h5>Credit card number</h5>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
